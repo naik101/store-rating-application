@@ -1,0 +1,23 @@
+{
+  "name": "full-stack-store-rating-application",
+  "version": "1.0.0",
+  "description": "Full Stack Store Rating Web Application with Express, PostgreSQL, Prisma, and React",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "test": "npm test --prefix backend",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "postgresql",
+    "prisma",
+    "store-rating",
+    "role-based-access"
+  ],
+  "author": "",
+  "license": "ISC"
+}
